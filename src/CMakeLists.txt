@@ -1,0 +1,1 @@
+add_subdirectory(basic/00_hello_world)

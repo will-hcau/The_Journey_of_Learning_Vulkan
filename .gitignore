@@ -1,40 +1,23 @@
 # Prerequisites
 *.d
-
-# Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
-
-# Precompiled Headers
 *.gch
 *.pch
-
-# Linker files
 *.ilk
-
-# Debugger Files
 *.pdb
-
-# Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
 *.so.*
-
-
-# Fortran module files
 *.mod
 *.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
-
-# Executables
 *.exe
 *.out
 *.app
@@ -43,6 +26,7 @@
 build/
 Build/
 build-*/
+cmake-build-*/
 
 # CMake generated files
 CMakeFiles/
@@ -61,9 +45,8 @@ compile_commands.json
 # vcpkg
 vcpkg_installed/
 
-# debug information files
+# Debug information and test output
 *.dwo
-
-# test output & cache
 Testing/
 .cache/
+.DS_Store

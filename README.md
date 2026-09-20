@@ -63,6 +63,7 @@ cmake --build build --target help
 | --- | --- | --- |
 | `src/basic/00_hello_world` | `hello_world` | Minimal C++20 program that verifies the project builds. |
 | `src/basic/01_creating_window` | `creating_window` | Creates a non-resizable GLFW window for the Vulkan tutorial. |
+| `src/basic/02_creating_instance` | `creating_instance` | Creates a Vulkan instance using Vulkan-Hpp RAII and GLFW extensions. |
 
 New examples will be added under `src`, ordered by number. For example:
 

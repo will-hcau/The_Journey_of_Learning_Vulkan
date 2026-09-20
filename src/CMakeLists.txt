@@ -1,1 +1,2 @@
 add_subdirectory(basic/00_hello_world)
+add_subdirectory(basic/01_creating_window)

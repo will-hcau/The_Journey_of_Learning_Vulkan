@@ -4,3 +4,4 @@ add_subdirectory(basic/02_creating_instance ${CMAKE_BINARY_DIR}/cmake/02_creatin
 add_subdirectory(basic/03_validation_layer ${CMAKE_BINARY_DIR}/cmake/03_validation_layer)
 add_subdirectory(basic/04_device_capability_check ${CMAKE_BINARY_DIR}/cmake/04_device_capability_check)
 add_subdirectory(basic/05_logical_device ${CMAKE_BINARY_DIR}/cmake/05_logical_device)
+add_subdirectory(basic/06_window_surface ${CMAKE_BINARY_DIR}/cmake/06_window_surface)

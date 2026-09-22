@@ -67,6 +67,7 @@ cmake --build build --target help
 | `src/basic/03_validation_layer` | `validation_layer` | Enables the Khronos validation layer and reports warnings/errors through a debug messenger. |
 | `src/basic/04_device_capability_check` | `device_capability_check` | Selects a physical device that supports Vulkan 1.3, graphics queues, swapchain, and required features. |
 | `src/basic/05_logical_device` | `logical_device` | Creates a logical device and retrieves its graphics queue. |
+| `src/basic/06_window_surface` | `window_surface` | Creates a GLFW window surface and selects a queue that supports graphics and presentation. |
 
 New examples will be added under `src`, ordered by number. For example:
 

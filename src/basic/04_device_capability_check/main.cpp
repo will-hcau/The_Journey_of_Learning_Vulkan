@@ -139,7 +139,14 @@ private:
             throw std::runtime_error("failed to find a suitable GPU");
 
         physicalDevice = *selected;
-        LOG_INFO("Selected GPU: " << physicalDevice.getProperties().deviceName);
+
+        const auto properties = physicalDevice.getProperties();
+        const uint32_t apiVersion = properties.apiVersion;
+        LOG_INFO("Selected GPU: " << properties.deviceName);
+        LOG_INFO("GPU Vulkan API version: "
+                 << VK_VERSION_MAJOR(apiVersion) << '.'
+                 << VK_VERSION_MINOR(apiVersion) << '.'
+                 << VK_VERSION_PATCH(apiVersion));
     }
 
     static VKAPI_ATTR vk::Bool32 VKAPI_CALL debugCallback(

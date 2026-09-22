@@ -2,6 +2,11 @@ find_package(Vulkan REQUIRED)
 
 add_executable(validation_layer main.cpp)
 
+set_target_properties(validation_layer PROPERTIES
+    OUTPUT_NAME "03_validation_layer"
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/src/basic"
+)
+
 target_compile_features(validation_layer PRIVATE cxx_std_20)
 
 target_include_directories(validation_layer PRIVATE

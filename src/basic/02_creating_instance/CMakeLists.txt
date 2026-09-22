@@ -2,6 +2,11 @@ find_package(Vulkan REQUIRED)
 
 add_executable(creating_instance main.cpp)
 
+set_target_properties(creating_instance PROPERTIES
+    OUTPUT_NAME "02_creating_instance"
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/src/basic"
+)
+
 target_compile_features(creating_instance PRIVATE cxx_std_20)
 
 target_include_directories(creating_instance PRIVATE

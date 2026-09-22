@@ -2,6 +2,11 @@ find_package(Vulkan REQUIRED)
 
 add_executable(logical_device main.cpp)
 
+set_target_properties(logical_device PROPERTIES
+    OUTPUT_NAME "05_logical_device"
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/src/basic"
+)
+
 target_compile_features(logical_device PRIVATE cxx_std_20)
 
 target_include_directories(logical_device PRIVATE

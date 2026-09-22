@@ -48,7 +48,7 @@ cmake --build build --target hello_world
 Run it with:
 
 ```bash
-./build/src/basic/00_hello_world/hello_world
+./build/src/basic/00_hello_world
 ```
 
 To see all available CMake targets:

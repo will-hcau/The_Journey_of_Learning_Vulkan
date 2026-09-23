@@ -6,3 +6,4 @@ add_subdirectory(basic/04_device_capability_check ${CMAKE_BINARY_DIR}/cmake/04_d
 add_subdirectory(basic/05_logical_device ${CMAKE_BINARY_DIR}/cmake/05_logical_device)
 add_subdirectory(basic/06_window_surface ${CMAKE_BINARY_DIR}/cmake/06_window_surface)
 add_subdirectory(basic/07_swapchain ${CMAKE_BINARY_DIR}/cmake/07_swapchain)
+add_subdirectory(basic/08_image_view ${CMAKE_BINARY_DIR}/cmake/08_image_view)

@@ -70,6 +70,8 @@ cmake --build build --target help
 | `src/basic/06_window_surface` | `window_surface` | Creates a GLFW window surface and selects a queue that supports graphics and presentation. |
 | `src/basic/07_swapchain` | `swapchain` | Queries swap-chain support and creates a presentation swap chain for the window surface. |
 | `src/basic/08_image_view` | `image_view` | Creates color image views for every image in the swap chain. |
+| `src/basic/09_refactor` | `refactor` | Refactors the Vulkan setup into reusable classes. |
+| `src/basic/10_shader_modules` | `shader_modules` | Loads Vulkan shader modules compiled from a single Slang shader file. |
 
 New examples will be added under `src`, ordered by number. For example:
 

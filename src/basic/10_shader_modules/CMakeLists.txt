@@ -20,9 +20,11 @@ endif()
 # Shader compilation
 set(SHADER_SOURCE "${CMAKE_CURRENT_SOURCE_DIR}/shader/shader.slang")
 
-# Keep the shader binary beside the example executable. The application
-# resolves this location from argv[0] at runtime.
-set(EXAMPLE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/src/basic")
+# Keep the shader binary beside the example executable inside this example's
+# own output directory. The application resolves this location from argv[0].
+set(EXAMPLE_OUTPUT_DIRECTORY
+    "${CMAKE_BINARY_DIR}/src/basic/10_shader_modules"
+)
 set(SHADER_BINARY "${EXAMPLE_OUTPUT_DIRECTORY}/slang.spv")
 
 add_custom_command(

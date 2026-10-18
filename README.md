@@ -72,6 +72,8 @@ cmake --build build --target help
 | `src/basic/08_image_view` | `image_view` | Creates color image views for every image in the swap chain. |
 | `src/basic/09_refactor` | `refactor` | Refactors the Vulkan setup into reusable classes. |
 | `src/basic/10_shader_modules` | `shader_modules` | Loads Vulkan shader modules compiled from a single Slang shader file. |
+| `src/basic/11_graphic_pipeline` | `graphic_pipeline` | Creates a graphics pipeline using dynamic rendering and the Slang shaders. |
+| `src/basic/12_command_buffer` | `command_buffer` | Creates a command pool, allocates a primary command buffer, and records dynamic-rendering triangle commands. |
 
 New examples will be added under `src`, ordered by number. For example:
 

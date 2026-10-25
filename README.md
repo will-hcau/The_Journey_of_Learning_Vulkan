@@ -74,6 +74,7 @@ cmake --build build --target help
 | `src/basic/10_shader_modules` | `shader_modules` | Loads Vulkan shader modules compiled from a single Slang shader file. |
 | `src/basic/11_graphic_pipeline` | `graphic_pipeline` | Creates a graphics pipeline using dynamic rendering and the Slang shaders. |
 | `src/basic/12_command_buffer` | `command_buffer` | Creates a command pool, allocates a primary command buffer, and records dynamic-rendering triangle commands. |
+| `src/basic/13_rendering_presentation` | `rendering_presentation` | Acquires swap-chain images, submits recorded triangle commands, and presents each frame with validation-enabled synchronization. |
 
 New examples will be added under `src`, ordered by number. For example:
 

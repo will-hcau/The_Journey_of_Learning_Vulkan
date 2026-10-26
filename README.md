@@ -85,3 +85,9 @@ src/
     ├── 01_instance_creation/
     └── 02_validation_layers/
 ```
+
+## License
+
+Original code in this repository is licensed under the [MIT License](LICENSE).
+
+Third-party code and dependencies retain their respective licenses and copyright notices. This license does not override upstream license terms.

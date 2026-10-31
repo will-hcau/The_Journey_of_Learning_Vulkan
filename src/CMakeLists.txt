@@ -12,3 +12,4 @@ add_subdirectory(basic/10_shader_modules ${CMAKE_BINARY_DIR}/cmake/10_shader_mod
 add_subdirectory(basic/11_graphic_pipeline ${CMAKE_BINARY_DIR}/cmake/11_graphic_pipeline)
 add_subdirectory(basic/12_command_buffer ${CMAKE_BINARY_DIR}/cmake/12_command_buffer)
 add_subdirectory(basic/13_rendering_presentation ${CMAKE_BINARY_DIR}/cmake/13_rendering_presentation)
+add_subdirectory(basic/14_frame_in_flight ${CMAKE_BINARY_DIR}/cmake/14_frame_in_flight)

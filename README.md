@@ -76,6 +76,7 @@ cmake --build build --target help
 | `src/basic/12_command_buffer` | `command_buffer` | Creates a command pool, allocates a primary command buffer, and records dynamic-rendering triangle commands. |
 | `src/basic/13_rendering_presentation` | `rendering_presentation` | Acquires swap-chain images, submits recorded triangle commands, and presents each frame with validation-enabled synchronization. |
 | `src/basic/14_frame_in_flight` | `frames_in_flight` | Uses two frame slots with per-frame fences and acquire semaphores, plus per-image presentation semaphores and in-flight tracking. |
+| `src/basic/15_swapchain_recreation` | `swapchain_recreation` | Recreates swap-chain resources when the window is resized, minimized, or the surface reports an outdated or suboptimal swap chain. |
 
 New examples will be added under `src`, ordered by number. For example:
 

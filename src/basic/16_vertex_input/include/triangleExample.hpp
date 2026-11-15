@@ -3,13 +3,14 @@
 #include <array>
 #include <cstddef>
 
+#include <glm/glm.hpp>
 #include <vulkan/vulkan_raii.hpp>
 
 /** The vertex shape shared by main.cpp and the pipeline helper. */
 struct TriangleVertex
 {
-    float position[2];
-    float color[3];
+    glm::vec2 position;
+    glm::vec3 color;
 
     static vk::VertexInputBindingDescription bindingDescription()
     {

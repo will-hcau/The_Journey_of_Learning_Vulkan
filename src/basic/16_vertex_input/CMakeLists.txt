@@ -26,7 +26,7 @@ target_compile_definitions(vertex_input PRIVATE VULKAN_HPP_NO_STRUCT_CONSTRUCTOR
 if(VULKAN_ENABLE_VALIDATION)
     target_compile_definitions(vertex_input PRIVATE VULKAN_ENABLE_VALIDATION)
 endif()
-target_link_libraries(vertex_input PRIVATE glfw Vulkan::Vulkan)
+target_link_libraries(vertex_input PRIVATE glfw Vulkan::Vulkan glm::glm)
 if(MSVC)
     target_compile_options(vertex_input PRIVATE /W4 /permissive-)
 else()

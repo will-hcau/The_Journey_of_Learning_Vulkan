@@ -77,6 +77,7 @@ cmake --build build --target help
 | `src/basic/13_rendering_presentation` | `rendering_presentation` | Acquires swap-chain images, submits recorded triangle commands, and presents each frame with validation-enabled synchronization. |
 | `src/basic/14_frame_in_flight` | `frames_in_flight` | Uses two frame slots with per-frame fences and acquire semaphores, plus per-image presentation semaphores and in-flight tracking. |
 | `src/basic/15_swapchain_recreation` | `swapchain_recreation` | Recreates swap-chain resources when the window is resized, minimized, or the surface reports an outdated or suboptimal swap chain. |
+| `src/basic/16_vertex_input` | `vertex_input` | Supplies interleaved position and color values from `TriangleExample` through a vertex buffer and pipeline input descriptions. |
 
 New examples will be added under `src`, ordered by number. For example:
 
